@@ -20,3 +20,4 @@ public class ControlTrouverEtalVendeur {
 		return etal;
 	}
 }
+
