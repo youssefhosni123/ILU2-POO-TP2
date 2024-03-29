@@ -4,18 +4,28 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import villagegaulois.Village;
+
 class ControlAcheterProduitTest {
+	private Village viilage;
 
 	@Test
 	void testControlAcheterProduit() {
-		fail("Not yet implemented");
+		//todo
 	}
 
 	@Test
 	void testVerifierIdentite() {
-		//fail("Not yet implemented");
-		ControlAcheterProduit controlAcheterProduit = new ControlAcheterProduit();
-		boolean result = 
+		  // Arrange
+        String nomAcheteur = "NomTest";
+        
+        controlAcheterProduit = null;
+		// Act
+        boolean identiteVerifiee = controlAcheterProduit.verifierIdentite(nomAcheteur);
+        
+        // Assert
+        assertTrue(identiteVerifiee); // Vérifie que l'identité est vérifiée avec succès
+    
 	}
 
 	@Test
